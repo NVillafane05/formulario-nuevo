@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+form {
+    border: #eee 1px solid;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+form .form-control {
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 7px;
+    height: 25px;
+}
+form textarea{
+    height: 200px;
+}
+form div{
+    margin: 12px 0;
+    width:400px;
+}
+.botonera{
+    margin: 50px;
+    width: max-content;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    text-decoration:underline;
+}
+input:focus, textarea:focus{
+    background-color: #eee;
+}
